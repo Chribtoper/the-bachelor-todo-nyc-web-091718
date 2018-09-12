@@ -48,5 +48,5 @@ i = 0, r = 0
       end
     end
   end
-  i / r
+  return (i / r)
 end
