@@ -44,8 +44,8 @@ i = 0, r = 0
     contestant["age"].to_f
   end
   ages.each do |x|
-    i+=1
-    r+=x
+    i += 1
+    r += x
   end
   r/i
 end
