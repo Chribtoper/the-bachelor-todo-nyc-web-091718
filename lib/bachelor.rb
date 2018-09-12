@@ -43,4 +43,5 @@ i = 0, r = 0
   ages = data[season].collect do |contestant|
     contestant["age"].to_i
   end
+  puts ages
 end
