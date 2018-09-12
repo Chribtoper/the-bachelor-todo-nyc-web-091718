@@ -43,7 +43,9 @@ i = 0, r = 0
   ages = data[season].collect do |contestant|
     contestant["age"].to_f
   end
-  ages.each { |a| r+=a, i+=1 }
-end
+  ages.each do |x|
+    i+=1
+    r+=x
+  end
   r/i
 end
