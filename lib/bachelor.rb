@@ -45,7 +45,6 @@ i = 0, r = 0
     i = ages.size
   end
   ages.each do |x|
-    i += 1
     r += x
   end
   r/i
