@@ -46,5 +46,5 @@ r = 0
   ages.each do |x|
     r += x
   end
-  r/ages.size
+  r.round/ages.size
 end
