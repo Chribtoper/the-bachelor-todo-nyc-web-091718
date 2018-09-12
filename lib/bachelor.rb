@@ -44,4 +44,5 @@ i = 0, r = 0
     contestant["age"].to_f
   end
   ages.each { |a| r+=a, i+=1 }
+  r/i
 end
